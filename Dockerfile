@@ -1,4 +1,4 @@
-FROM gradle:8
+FROM gradle:7
 USER root
 ENV SDK_URL="https://dl.google.com/android/repository/commandlinetools-linux-10406996_latest.zip" \
     ANDROID_HOME="/usr/local/android-sdk" \
