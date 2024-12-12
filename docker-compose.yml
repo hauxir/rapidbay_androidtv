@@ -1,0 +1,5 @@
+services:
+ android-builder:
+    build: .
+    volumes:
+      - ./:/app
